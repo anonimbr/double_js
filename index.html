@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Provably Fair (Double)</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <table>
+        <tbody>
+          <tr>
+            <th>Server seed</th>
+            <th>Game hash</th>
+            <th>Result</th>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" id="server_seed_input" />
+            </td>
+            <td>
+              <span id="game_hash"></span>
+            </td>
+            <td><span id="result"></span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="debug"></div>
+
+    <style>
+      table {
+        width: 100%;
+      }
+      input {
+        text-align: center;
+        width: 90%;
+      }
+      table {
+        padding: 0;
+        margin: 0;
+        border: 1px solid #aaaaaa;
+      }
+    </style>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
